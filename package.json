@@ -1,0 +1,21 @@
+{
+  "name": "real_time_chat_app",
+  "version": "1.0.0",
+  "description": "This app is used as a project showcase for JICA Hackthon 2023 registration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "kpmt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
